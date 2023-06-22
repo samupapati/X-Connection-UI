@@ -62,22 +62,22 @@ function Chat(){
         <ChatStyle>
             <TitleWindow title={'Chat'}/>
             <ul>
-                <ProfileGroup linkImg={ProfilePicture4} name={'Jonathan Campbell'} text={'Thanks for the guidance!'}/>
-                <ProfileGroup linkImg={ProfilePicture5} name={'Laura Powers'} text={"Perfect! I'm heading to the beach then!"}/>
-                <ProfileGroup linkImg={ProfilePicture6} name={'Becky Perez'} text={"You're welcome! Enjoy your reading!"}/>
-                <ProfileGroup linkImg={ProfilePicture7} name={'Charles Ritter'} text={"Hi! How's it going?"}/>
-                <ProfileGroup linkImg={ProfilePicture8} name={'Jason Obrien'} text={"No problem! Have a great day!"}/>
-                <ProfileGroup linkImg={ProfilePicture9} name={'Vanessa Smith'} text={"Will do. Thanks again!"}/>
-                <ProfileGroup linkImg={ProfilePicture10} name={'Roy Taylor'} text={"I need some advice on choosing a career"}/>
-                <ProfileGroup linkImg={ProfilePicture11} name={'John Evans'} text={"Awesome, thanks for the suggestions!"}/>
-                <ProfileGroup linkImg={ProfilePicture12} name={'Michelle Hammond'} text={"I enjoy action and sci-fi."}/>
-                <ProfileGroup linkImg={ProfilePicture13} name={'Taylor Hart'} text={"Same here! Any movie recomendations?"}/>
-                <ProfileGroup linkImg={ProfilePicture14} name={'Debora Hood'} text={"Any plans for the weekend?"}/>
-                <ProfileGroup linkImg={ProfilePicture15} name={'Bryan Batista'} text={"How's your day?"}/>
-                <ProfileGroup linkImg={ProfilePicture16} name={'Jose Martinez'} text={""}/>
-                <ProfileGroup linkImg={ProfilePicture17} name={'Scott Anderson'} text={""}/>
-                <ProfileGroup linkImg={ProfilePicture18} name={'Lisa Owen'} text={""}/>
-                <ProfileGroup linkImg={ProfilePicture19} name={'Rebecca Williams'} text={""}/>
+                <ProfileGroup linkImg={ProfilePicture4} name={'Jonathan Campbell'} text={'Thanks for the guidance!'} status={'online'}/>
+                <ProfileGroup linkImg={ProfilePicture5} name={'Laura Powers'} text={"Perfect! I'm heading to the beach then!"} status={'online'}/>
+                <ProfileGroup linkImg={ProfilePicture6} name={'Becky Perez'} text={"You're welcome! Enjoy your reading!"} status={'online'}/>
+                <ProfileGroup linkImg={ProfilePicture7} name={'Charles Ritter'} text={"Hi! How's it going?"} status={'online'}/>
+                <ProfileGroup linkImg={ProfilePicture8} name={'Jason Obrien'} text={"No problem! Have a great day!"} status={'occupied'}/>
+                <ProfileGroup linkImg={ProfilePicture9} name={'Vanessa Smith'} text={"Will do. Thanks again!"} status={'occupied'}/>
+                <ProfileGroup linkImg={ProfilePicture10} name={'Roy Taylor'} text={"I need some advice on choosing a career"} status={'unavailable'}/>
+                <ProfileGroup linkImg={ProfilePicture11} name={'John Evans'} text={"Awesome, thanks for the suggestions!"} status={'unavailable'}/>
+                <ProfileGroup linkImg={ProfilePicture12} name={'Michelle Hammond'} text={"I enjoy action and sci-fi."} status={'unavailable'}/>
+                <ProfileGroup linkImg={ProfilePicture13} name={'Taylor Hart'} text={"Same here! Any movie recomendations?"} status={''}/>
+                <ProfileGroup linkImg={ProfilePicture14} name={'Debora Hood'} text={"Any plans for the weekend?"} status={''}/>
+                <ProfileGroup linkImg={ProfilePicture15} name={'Bryan Batista'} text={"How's your day?"} status={''}/>
+                <ProfileGroup linkImg={ProfilePicture16} name={'Jose Martinez'} text={""} status={''}/>
+                <ProfileGroup linkImg={ProfilePicture17} name={'Scott Anderson'} text={""} status={''}/>
+                <ProfileGroup linkImg={ProfilePicture18} name={'Lisa Owen'} text={""} status={''}/>
+                <ProfileGroup linkImg={ProfilePicture19} name={'Rebecca Williams'} text={""} status={''}/>
             </ul>
         </ChatStyle>
     )

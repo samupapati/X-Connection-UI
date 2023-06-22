@@ -5,8 +5,6 @@ const ProfileGroupWrapper = styled.li`
     display: flex;
     align-items: center;
     padding: 8px 0 8px 32px;
-
-    background-color: attr();
 `
 
 const ImgWrapper = styled.a`
@@ -28,6 +26,7 @@ const Name = styled.a`
     color: var(--font1);
     font-weight: bold;
     text-decoration: none;
+    position: relative;
 `
 
 const Text = styled.p`
@@ -37,14 +36,40 @@ const Text = styled.p`
     line-height: 12px;
 `
 
-function ProfileGroup({linkImg, name, text}){
+const Status = styled.div`
+    width: 8px;
+    height: 8px;
+    background-color: ${(props) => {
+        switch(props.status){
+            default: 
+                return 'gray'
+            case 'online':
+                return 'var(--green1)'
+            case 'occupied':
+                return 'orange'
+            case 'unavailable':
+                return 'red'
+        }
+    }};
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: -15px;
+`
+
+
+function ProfileGroup({linkImg, name, text, status}){
+
     return (
         <ProfileGroupWrapper>
             <ImgWrapper href="#">
                 <img src={linkImg} alt="profile img" />
             </ImgWrapper>
             <div>
-                <Name href="#">{name}</Name>
+                <Name href="#">
+                    {name}
+                    {status !== undefined ? <Status status={status}></Status> : ''}
+                </Name>
                 {text !== '' ?
                     <Text>{text}</Text>
                     :
