@@ -1,6 +1,6 @@
 <h2>X-Connection - Conceito de UI<h2>
 
-<img align="left" src=""/>
+<img align="left" src="https://github.com/samupapati/X-Connection-UI/blob/master/page.png"/>
 Design de uma rede social, a X-Connection.
 <hr>
 <a href="" target="blank">Visitar</a>
