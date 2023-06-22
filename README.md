@@ -3,7 +3,7 @@
 <img align="left" src="https://github.com/samupapati/X-Connection-UI/blob/master/page.png"/>
 Design de uma rede social, a X-Connection.
 <hr>
-<a href="" target="blank">Visitar</a>
+<a href="https://samupapati.github.io/X-Connection-UI/" target="blank">Visitar</a>
 <br>
 <a href="https://www.figma.com/file/H17ShAuU9gMm2XTrUTq1Cw/UI-Rede-Social?type=design&mode=design" target="blank">Ver protótipo no figma</a>
 
